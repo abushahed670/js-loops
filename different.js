@@ -45,12 +45,25 @@
 // }
 
 //give me the sum of numbers from 1 to 20 that are divisible by 3
+// let total = 0;
+
+// for(let i = 1; i <= 20; i++){
+//     if(i %3 === 0){
+//         console.log(i);
+//         total = total + i;
+//     }
+// }
+// console.log('the total sum of the number:', total);
+
+//showing every operations 
+
 let total = 0;
 
 for(let i = 1; i <= 20; i++){
     if(i %3 === 0){
         console.log(i);
         total = total + i;
+        console.log('total of sum:', total)
     }
 }
 console.log('the total sum of the number:', total);
